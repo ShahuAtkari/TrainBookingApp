@@ -32,5 +32,6 @@ public class PassengerInfo {
 	
 	@Column(name="Password")
 	private String passengerPassword;
+	
 
 }

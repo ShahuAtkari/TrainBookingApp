@@ -57,7 +57,7 @@ public class AppSecurityConfig {
 	{
 		http.authorizeHttpRequests(request->{
 			
-			request.requestMatchers("/","/home","/ticketdata","/registerUI","/ListTicket","/login","/register","/registershow","/loginUI","/tkt/new")
+			request.requestMatchers("/","/home","/generateQRCode","/successPage","/ticketdata","/registerUI","/ListTicket","/login","/register","/registershow","/loginUI","/tkt/new")
 			.permitAll()
 			.anyRequest()
 			.authenticated();
@@ -65,4 +65,5 @@ public class AppSecurityConfig {
 		});
 		return http.csrf().disable().build();
 	}
+	
 }

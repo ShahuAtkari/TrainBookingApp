@@ -18,7 +18,6 @@ public interface MetroTicketService extends UserDetailsService {
 	
 	 byte[] generateQRCode(String qrContent, int width, int height);
 	 
-	 
 	 public boolean RegisterPassenger(PassengerInfo info);
 	 
 }

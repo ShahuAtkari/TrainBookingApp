@@ -50,5 +50,6 @@ public class MetroTicketInfo {
 	public void setTicketPrice(String boardingStation2, String destinationStation2) {
 		// TODO Auto-generated method stub
 		
+		
 	}
 }

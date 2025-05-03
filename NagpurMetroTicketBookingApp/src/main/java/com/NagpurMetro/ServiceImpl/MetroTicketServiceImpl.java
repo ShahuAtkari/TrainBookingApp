@@ -47,9 +47,6 @@ public class MetroTicketServiceImpl implements MetroTicketService {
 		this.repository=repository;
 	}
 
-
-	
-
 	@Override
 	public MetroTicketInfo CreateTicket(MetroTicketInfo request) {
 		

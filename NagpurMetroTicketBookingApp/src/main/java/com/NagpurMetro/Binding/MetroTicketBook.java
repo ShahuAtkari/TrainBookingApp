@@ -7,6 +7,5 @@ public class MetroTicketBook {
 	
 	private String boardingStation;
 	private String destinationStation;
-	private Integer numberofPassenger;
-				
+	private Integer numberofPassenger;		
 }

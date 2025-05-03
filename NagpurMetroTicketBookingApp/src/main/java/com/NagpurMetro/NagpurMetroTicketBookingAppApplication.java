@@ -8,6 +8,7 @@ public class NagpurMetroTicketBookingAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(NagpurMetroTicketBookingAppApplication.class, args);
+		
 	}
 
 }

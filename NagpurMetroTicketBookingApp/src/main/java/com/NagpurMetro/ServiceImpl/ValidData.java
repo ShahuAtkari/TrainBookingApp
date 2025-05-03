@@ -41,7 +41,6 @@ public class ValidData {
 		return tktnumber;
 	}
 	
-	
 	public static String checkBoardingStation(String boardingstation) throws Exception 
 	{
 		List<String> stationlist=Arrays.asList(

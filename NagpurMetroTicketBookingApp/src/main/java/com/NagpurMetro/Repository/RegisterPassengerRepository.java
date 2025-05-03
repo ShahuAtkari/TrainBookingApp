@@ -8,4 +8,5 @@ public interface RegisterPassengerRepository extends JpaRepository<PassengerInfo
 	
 	public PassengerInfo findByPassengerEmail(String email);
 
+	
 }

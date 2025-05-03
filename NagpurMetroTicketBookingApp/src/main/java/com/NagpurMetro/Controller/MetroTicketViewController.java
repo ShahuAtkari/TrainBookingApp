@@ -103,11 +103,19 @@ public class MetroTicketViewController {
 
 	        metroticketservice.CreateTicket(mt);
 	        
-	        model.addAttribute("newTicket", mt);
+	       
 	        model.addAttribute("qrCodeContent", "/generateQRCode?qrContent=" + mt.getTicketNumber());
+	        model.addAttribute("newTicket", mt);
 	        
 	        return "realTicket";
+//	        return  "redirect:/successPage";
 	    }
+	    
+//	    @GetMapping("/successPage")
+//	    public String ticketSuccessPage() {
+//	        return "realTicket";
+//	    }
+
 	
 	    @PostMapping("/registerUI")
 	    public String RegisterPassenger(@ModelAttribute("passenger") PassengerInfo info, Model model) {
@@ -128,7 +136,6 @@ public class MetroTicketViewController {
 					return "new";
 				else
 					return "check the email or password";
-				
 				
 		}
 }

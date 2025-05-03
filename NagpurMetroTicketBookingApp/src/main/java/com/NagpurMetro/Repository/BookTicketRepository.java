@@ -7,5 +7,6 @@ import com.NagpurMetro.Binding.MetroTicketInfo;
 
 public interface BookTicketRepository extends JpaRepository<MetroTicketInfo, Integer > {
 
+	
 }
 
